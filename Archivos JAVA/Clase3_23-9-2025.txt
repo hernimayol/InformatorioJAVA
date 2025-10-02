@@ -41,16 +41,27 @@ CONTROL DE FLUJOS
 
 
 ● Pre-test - While
-While ( condición )
-{ // Sentencias}
-Ejecuta el ciclo de 0 a N veces. Ejecuta despues de la condicion.
+    El ciclo while se usa cuando NO sabemos cuántas veces se repetirá, pero depende de una condición que se evalúa 
+    antes de cada vuelta.
+    Estructura:
+while (condición) {
+    // código que se repite
+}
+Si la condición es false desde el inicio, el ciclo no se ejecuta ni una sola vez.
 
 ● Post-test - Do - While
-Do{//Sentencias}
-while ( condición )
-Ejecuta el ciclo de 1 a N veces
+    Muy parecido al while, pero siempre se ejecuta al menos una vez, porque la condición se evalúa al final.
+    Estructura:
+    do {
+        // código que se repite
+    } while (condición);
 
 ● Manejado por contador - For
-for ( indice declarado;condición;inc/dec de índice )
-{ // Sentencias}
-Ejecuta el ciclo N veces
+    Ejecuta el ciclo N veces, se usa cuando sabemos de antemano cuántas veces queremos repetir algo.
+    Estructura:
+    for (inicialización; condición; actualización) {
+        // código que se repite
+    }
+    Inicialización → define la variable de control (ej: int i = 0).
+    Condición → mientras sea true, se ejecuta el ciclo.
+    Actualización → cambia la variable de control en cada iteración (ej: i++).
