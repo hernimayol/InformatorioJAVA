@@ -1,0 +1,56 @@
+Clase 3 23-9-2025
+
+PROGRAMACIÓN ESTRUCTURADA
+
+*La programación estructurada es un paradigma de programación que se
+    enfoca en la organización lógica y ordenada de un programa en módulos o
+    bloques de código que realizan una tarea específica.
+    Se utilizan estructuras de control de flujo de ejecución como el if, else, while y
+    for, entre otros. De esta manera, se fomenta la legibilidad y claridad del
+    código, y se reducen los errores y la complejidad de los programas.
+
+CONTROL DE FLUJOS
+    ● Simple
+        If ( condición )
+        { // Sentencias}
+    ● Doble
+        If ( condicion )
+        {//Sentencias}
+        else {//Sentencias}
+
+    ● Múltiple
+        If ( condición )
+        {//Sentencias}
+        else if ( condición )
+        {//Sentencias}
+        else if ( condición )
+        { //Sentencias }
+        else ←(opcional)
+        { //Sentencias }
+
+    ● Múltiple
+        switch(value){
+        case x :
+        //Código para valor == x
+        break;
+        case y :
+        //Código para valor == y
+        default:
+        //Código para valor default
+        }
+
+
+● Pre-test - While
+While ( condición )
+{ // Sentencias}
+Ejecuta el ciclo de 0 a N veces. Ejecuta despues de la condicion.
+
+● Post-test - Do - While
+Do{//Sentencias}
+while ( condición )
+Ejecuta el ciclo de 1 a N veces
+
+● Manejado por contador - For
+for ( indice declarado;condición;inc/dec de índice )
+{ // Sentencias}
+Ejecuta el ciclo N veces

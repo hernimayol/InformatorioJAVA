@@ -1,0 +1,10 @@
+Clase 2 - 18/9/2025
+Programacion imperativa.
+
+*Con la programacion imperativa se puede crear programas simples, sigue un orden si o si.
+*El tipo de dato Double es el tipo de dato numerico real por default en JAVA. Ocupa mas espacio de memoria que el float.
+*El operador ternario no es equivalente en funcionamiento a una estructura if-else, evalua si es True or false, siempre devuelve un valor.
+*El tipo de operador Infija es X+1 (Expresion ; Operador; Expresion), se encuentra en medio.
+*Las constantes siempre van en mayusculas.
+*Se puede declarar una variable sin asignarle valor.
+
