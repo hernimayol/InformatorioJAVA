@@ -1,0 +1,39 @@
+*********ARREGLOS*********
+
+-Estructura de datos que permite almacenar un conjunto de elementos del mismo tipo en una misma
+variable. Los elementos de un arreglo son almacenados en posiciones contiguas de memoria y se acceden a ellos 
+mediante un indice. Los arreglos tienen un tamaño fijo, que es determinado en el momento de su creacion, y
+pueden contener cualquier tipo de dato primitivo o una referencia a un objeto.
+Ej en sintaxis en JAVA:
+int[] edades = {21,23,25,30,32};
+
+for (int edad:edades){
+    System.out.println("Edad :" + edad);
+}
+
+                                    *Creación de arreglos
+new es un operador unario que devuelve la dirección de memoria
+reservada, es donde comienza el arreglo
+● new int[] {2,3,4,5} //Reserva de memoria para 4 lugares de enteros
+● new char[][] //No se indica valores, por lo que tienen valores por default
+● new String[][] //Este es bidimensional
+● new int[3 * 2] //Es valido, asi puedo definir la dimensión
+● new int[3][] //No defino la segunda dimensión
+
+● Declaración : Crear una referencia al array, es decir, es crear el punto de memoria
+que nos dará acceso al primer encuentro del array.
+● Instanciación de un array : Es el paso de crear la estructura de datos como tal.
+● Inicialización : Asignar valores a las posiciones de array.
+❏ Los arreglos siempre se inicializan con una longitud la cual es inalterable.
+❏ La primer posición de los arreglos es 0.
+
+
+                                *Tipos de ARREGLOS
+
+Arreglos de 1 dimension : [0],[1],[2],[3]
+
+
+Arreglos de 2 dimensiones:  [0],[1],[2],[3]
+                            [0],[1],[2],[3]
+                            [0],[1],[2],[3]
+                            [0],[1],[2],[3]
