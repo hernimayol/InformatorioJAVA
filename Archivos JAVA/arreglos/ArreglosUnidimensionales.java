@@ -1,3 +1,6 @@
+
+import java.util.Arrays;
+
 public class ArreglosUnidimensionales{
 
     public static void main(String[] args) {
@@ -12,7 +15,7 @@ public class ArreglosUnidimensionales{
 
         // Accedemos al array 2
         System.out.println("Accediendo al elemento 1 del arreglo 1: " + array2[0]);
-        System.out.println(array2);
+        System.out.println(Arrays.toString(array2));
 
         //El bucle for para reconocer el arreglo
         for (int i = 0; i < array1.length; i++){
