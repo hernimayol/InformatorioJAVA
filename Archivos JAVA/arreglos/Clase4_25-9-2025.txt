@@ -4,7 +4,8 @@
 variable. Los elementos de un arreglo son almacenados en posiciones contiguas de memoria y se acceden a ellos 
 mediante un indice. Los arreglos tienen un tamaño fijo, que es determinado en el momento de su creacion, y
 pueden contener cualquier tipo de dato primitivo o una referencia a un objeto.
-Ej en sintaxis en JAVA:
+
+ Ej en sintaxis en JAVA:
 int[] edades = {21,23,25,30,32};
 
 for (int edad:edades){
@@ -20,6 +21,8 @@ reservada, es donde comienza el arreglo
 ● new int[3 * 2] //Es valido, asi puedo definir la dimensión
 ● new int[3][] //No defino la segunda dimensión
 
+
+                CREACION DE ARREGLOS
 ● Declaración : Crear una referencia al array, es decir, es crear el punto de memoria
 que nos dará acceso al primer encuentro del array.
 ● Instanciación de un array : Es el paso de crear la estructura de datos como tal.
@@ -33,7 +36,30 @@ que nos dará acceso al primer encuentro del array.
 Arreglos de 1 dimension : [0],[1],[2],[3]
 
 
-Arreglos de 2 dimensiones:  [0],[1],[2],[3]
+Arreglos de 2 dimensiones:  [0],[1],[2],[3] //new String[4][4]El primer corchete representa a la fila, la seguna a la columna
                             [0],[1],[2],[3]
                             [0],[1],[2],[3]
                             [0],[1],[2],[3]
+
+                                *Acceso al arreglo
+
+[] Es un operador que recibe la zona de memoria en un valor o expresion y devuelve
+un valor de la zona de memoria del arreglo.
+
+°new int[] {1,2,3,4,5} [0] //Devuelve 1
+°new int[] {1,2,3,4,5} [4] //Devuelve 5
+°new int[] {1,2,3,4,5} [5] //ERROR!!
+
+*Longitud del array
+    La longitud se puede saber a partir del atributo .Length del array.
+
+        new String[][] {"a"} {"x","y","z"}[0].length; //Devuelve 1
+
+*Declaracion en variables
+
+        int[]arregloDeclarado = new int[] {1,2,3,4,5};
+    Lo que ocurre aqui es que arregloDeclarado guarda una referencia al arreglo.
+    Es decir la zona de referencia contiene una direccion en memoria al arreglo.
+
+        int[][] arregloDeclarado = new int[][] {{1,666,3}, null, {0}};
+            La dimension de este array es de 3x3
