@@ -8,25 +8,24 @@ public class App {
         auto.setMarca("Marca X");
         auto.setModelo("2003");
 
-        //auto.mostrarInformacion();
-
-        System.out.println(auto.getCantidadDeRuedas());
-        System.out.println(auto.getColor());
-        System.out.println(auto.getMarca());
-        System.out.println(auto.getModelo());
-        System.out.println(auto.getEsElectrico());
-
         //Cambiar el estado del atributo color
         auto.setColor("Rojo");
         System.out.println(auto.getColor());
 
-
+        //Constructores
         Auto auto2 = new Auto(4,true,"Marca 1", "Rojo");
         auto2.setModelo("Modelo 1");
 
         Auto auto3 = new Auto(4,"Marca 1", "Modelo2", "Negro");
-        auto3.setModelo("Modelo 2");
 
+        Auto[] autos = new Auto[3];
+        autos[0] = auto;
+        autos[1] = auto2;
+        autos[2] = auto3;
+
+        for (int i = 0; i < autos.length; i++) {
+            autos[i].mostrarInformacion();
+        }
 
     }
 }

@@ -13,14 +13,19 @@ public class Auto {
 
 
     //Constructores
-    public Auto(){} //Constructor
+    public Auto(){} //Constructor vacio
     public Auto(int cantidadDeRuedas, boolean esElectrico, String marca, String color){
         this.cantidadDeRuedas = cantidadDeRuedas;
         this.esElectrico = esElectrico;
         this.marca = marca;
         this.color = color;
     }
-
+    public Auto(int cantidadDeRuedas, String marca, String modelo, String color){
+        this.cantidadDeRuedas = cantidadDeRuedas;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.color = color;
+    }
 
 
 
@@ -29,7 +34,6 @@ public class Auto {
     //void --> Tipo de retorno en este caso no devuelve nada
     //setCantidadDeRuedas --> nombre del metodo
     // () --> Los parametros del metodo
-
 
     public void setCantidadDeRuedas(int cantidadDeRuedas) {
         //this apunta la clase a si mismo
@@ -61,18 +65,27 @@ public class Auto {
     }
 
     public boolean getEsElectrico() {
-        return esElectrico;
+        return this.esElectrico;
     }
 
     public String getColor() {
-        return color;
+        return this.color;
     }
 
     public String getMarca() {
-        return marca;
+        return this.marca;
     }
 
     public String getModelo() {
-        return modelo;
+        return this.modelo;
+    }
+
+    public void mostrarInformacion(){
+        System.out.println(this.getCantidadDeRuedas());
+        System.out.println(this.getColor());
+        System.out.println(this.getMarca());
+        System.out.println(this.getModelo());
+        System.out.println(this.getEsElectrico());
+
     }
 }
