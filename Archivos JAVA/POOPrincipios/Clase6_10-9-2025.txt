@@ -1,0 +1,14 @@
+POO PRINCIPIOS:
+
+*ABSTRACCION: Consiste en enfocarse en los aspectos esenciales de un objeto e ignorar los detalles irrelevantes.
+
+    La abstraccion es posible a partir de:
+    .Clases abstractas o herencia.
+    .Interfaces.
+
+*HERENCIA: Cuando una clase hija hereda de otra incorporando de otra todas
+    las caracteristicas de la clase padre.
+                class Hija extends Padre
+    
+    .En java no esta permitida la herencia multiple, por lo que una clase
+    unicamente puede heredar de una sola clase padre.
