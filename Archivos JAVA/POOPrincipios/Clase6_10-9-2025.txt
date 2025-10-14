@@ -12,3 +12,23 @@ POO PRINCIPIOS:
     
     .En java no esta permitida la herencia multiple, por lo que una clase
     unicamente puede heredar de una sola clase padre.
+
+*POLIMORFISMO: Muchas formas de hacer algo
+    .Es posible con:
+        .Las Interfaces
+        .Clases abstractas.
+        .Herencia.
+
+*ENCAPSULAMIENTO: Consiste en ocultar la complejidad interna de un objeto
+y proporcionar una interfaz publica que permita a otros objetos interactuar con el.
+    .Encapsular tambien los detalles, caracteristicas e informacion de las clases.
+    Un ejemplo es cuando aplico "private" y oculto encapsulandolo, y te otorgo metodos
+    publicos para poder interactuar conmigo.
+
+*ABSTRACCION - INTERFACES
+    .¿Cuando usar interfaces y no herencia?
+    .Cuando en POO nos encontramos con una clase de herencia, dandose la
+    situacion de que solo necesitamos heredar metodos (no atributos) y no
+    necesitamos implementaciones que puedan reutilizarse en las clases
+    heredadas, lo que precisamos, en vez de heredar clases, es implementar
+    interfaces.
