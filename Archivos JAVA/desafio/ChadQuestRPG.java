@@ -5,6 +5,7 @@ public class ChadQuestRPG {
         puntosPorMision[0] = 50;
         puntosPorMision[1] = 80;
         puntosPorMision[2] = 60;
+        
         for (int i = 0; i < 3; i++) {
             total += puntosPorMision[i];
         }
