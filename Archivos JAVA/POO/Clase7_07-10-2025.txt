@@ -1,0 +1,65 @@
+PROGRAMACION ORIENTADA A OBJETOS
+El codigo debe ser sencillo, entendible. La POO busca ordenar las porciones de codigo
+y organizarlo en clases.
+
+La POO es un paradigma de programacion que se centra en la creacion de objetos que interactuan entre si para
+realizar una tarea. Cada objeto tiene su propio estado y comportamiento, y se pueden crear nuevas instancias a
+partir de una clase base que define los atributos y metodos comunes a todos los objetos de esa clase.
+
+La programacion orientada a objetos permite escribir codigo mas modular, reutilizable y facil de mantener.
+
+En JAVA, se utilizan clases, objetos, herencia, polimorfismo y encapsulamiento para implementar
+la programacion orientada a objetos.
+
+    *CLASES: Es una entidad heretogenea de atributos, variables, constantes o collecciones
+    u otros objetos:
+        Class <NombreClase> {}
+    Se define como:
+        Una unidad de informacion.
+        Una clase es una estructura recursiva, son estructuras que llaman a otras clases consecutivamente
+
+    Una clase debera de respetar los principios de:
+        Alta cohesion
+        Bajo acoplamiento
+        Pequeño tamaño del diseño modular.
+
+    *OBJETOS: es una instancia de esa misma clase.
+    Como creamos un objeto: new <NombreClase> ([<expresiones]);
+
+    El operador "new" nos devuelve una referencia al objeto, es decir una direccion de memoria donde se
+    encuentra el objeto que hemos instanciado.
+    Podemos guardar estas referencias en memoria ya sea en variables o constantes.
+
+    <NombreClase> estaEsUnaVariables = new <NombreClase> ([<expresiones>]);
+
+    *ATRIBUTOS: es info contenida en clases, son caracteristicas del objeto. Las mismas pueden ser
+    cambiadas, consultadas y pueden ser utilizadas para operaciones
+
+    [clasificador] tipo <nombreAtributo> [=valorInicial]
+
+    *ENCAPSULAMIENTOI: Es la tecnica que tiene todo objeto de ocultar su informacion y poder
+    solamente a partir de operaciones poder modificar y acceder a estos atributos.
+    Encapsulamos los atributos de una clase con el clasificador "private"
+
+    *METODOS: son operaciones, funcionalidades de la clase.
+    El conjunto de estas operaciones basicas que ofrece el objeto hacia el resto de los objetos o para la propia
+    gestion de su estado interno.
+    El resultado de la ejecucion de un metodo producira un cambio de estado del objeto que recibe el esta operacion.
+        [clasificador] [tipoDeRetorno] nombreDelMetodo([<expresiones>]) {}
+
+        .Los metodos tambien tienen clasificadores
+        .Tenemos operaciones denominadas "getters" para mostras la info de los atributos.
+        .Tenemos operaciones denominadas "setters" para guardar info de los atributos.
+
+
+    *Constructores(inicializador)
+    Este metodo especial se llama constructor, son metodos que reune tareas de inicializacion, no construyen,
+    estos se inicializan. Estos son lanzados implicitamente en la construccion de objetos.
+
+    .No devuelven nada, ni vacio.
+    .Coinciden con el nombre de la clase.
+    .No se pueden lanzar mensajes que se correspondan con los Constructoresde la clase.
+    .Puedo inicializar con distintos parametros, no necesariamente los parametros de constructor son los atributos de la clase.
+    .Podemos tener mas de un constructor pero estos deben reunir las condiciones de sobrecarga de metodos.
+    .Si no escribimos ningun constructos, la JVM se genera sin parametros y no inicializa nada.
+
