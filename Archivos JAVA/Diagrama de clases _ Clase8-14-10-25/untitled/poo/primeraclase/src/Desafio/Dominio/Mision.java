@@ -11,10 +11,16 @@ public class Mision {
 
     //Getters:
     public int getNumero(){
+
         return numero;
     }
 
     public int getPuntaje(){
+
         return puntaje;
+    }
+
+    public boolean esFallida(){
+        return this.getPuntaje() == 0;
     }
 }
