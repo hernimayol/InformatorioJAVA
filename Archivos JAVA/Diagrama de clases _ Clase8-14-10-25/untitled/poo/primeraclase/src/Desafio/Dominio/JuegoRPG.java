@@ -1,16 +1,15 @@
 package POO.untitled.poo.primeraclase.src.Desafio.Dominio;
 
-public class JuegoRPG {
-    private Jugador jugador;
+public class JuegoRPG extends AbstractJuevo{
+    //private Jugador jugador;
 
     public JuegoRPG(Jugador jugador) {
-
-        this.jugador = jugador;
+        super(jugador);
     }
-
+    @Override
     public void evaluar() {
-        int total = jugador.calcularToltal();
-        Mision mejor = jugador.misionConMayorPuntaje();
+        int total = super.getJugador().calcularToltal();
+        Mision mejor = super.getJugador().misionConMayorPuntaje();
 
         String mensajeChad = (total > 300) ? "Felicidades, Sos un verdadero Chad del RPG" : "Te falta entrenamiento";
         System.out.println(mensajeChad);
@@ -18,11 +17,11 @@ public class JuegoRPG {
         System.out.println("Puntos acumulados: " + total);
         System.out.println("La mision que mejor rendimiento tuvo es en la mision numero: " + mejor.getNumero() + " con " + mejor.getPuntaje() + " puntos.");
 
-        if (jugador.tieneMisionFallida()) {
+        if (super.getJugador().tieneMisionFallida()) {
             System.out.println("Fallaste al menos una mision. Que el backend tenga piedad...");
         }
 
-        if (jugador.esConstante()) {
+        if (super.getJugador().esConstante()) {
             System.out.println("Ejecucion constante! Sos el sueño de un arquitecto de software.");
         }
     }

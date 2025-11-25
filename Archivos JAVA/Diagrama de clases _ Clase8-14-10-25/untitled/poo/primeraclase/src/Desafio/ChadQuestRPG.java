@@ -1,4 +1,6 @@
-package POO.untitled.poo.primeraclase.src.Desafio.Dominio;
+package POO.untitled.poo.primeraclase.src.Desafio;
+
+import POO.untitled.poo.primeraclase.src.Desafio.Dominio.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +17,7 @@ public class ChadQuestRPG {
         misiones.add(new Mision(5,500));
 
         Jugador jugador = new Jugador(misiones);
-        JuegoRPG juego = new JuegoRPG(jugador);
+        AbstractJuevo juego = new JuegoRPGV2(jugador);
         juego.evaluar();
 
     }
