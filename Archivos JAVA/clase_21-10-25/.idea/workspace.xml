@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e91a319-7f04-4979-8e1e-09f259d90c6b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Diagrama de clases _ Clase8-14-10-25/untitled/poo/primeraclase/src/Desafio/Dominio/ChadQuestRPG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Diagrama de clases _ Clase8-14-10-25/untitled/poo/primeraclase/src/Desafio/ChadQuestRPG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="35zLlBKU95hoFDu5iDdOcO69K6q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,7 +28,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "clase__8",
+    "git-widget-placeholder": "clase__9",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Hernanxd/Desktop/Informatorio/JAVA/InformatorioJAVA/Archivos JAVA/clase_21-10-25"
   }
