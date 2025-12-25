@@ -1,0 +1,24 @@
+package POO.untitled.poo.primeraclase.src.Desafio;
+
+import POO.untitled.poo.primeraclase.src.Desafio.Dominio.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ChadQuestRPG {
+    public static void main(String[] args) {
+        System.out.println(" Bienvenido a ChadQuest RPG - Carga los puntajes de tus misiones.");
+        List<Mision> misiones = new ArrayList<>();
+
+        misiones.add(new Mision(1,100));
+        misiones.add(new Mision(2,200));
+        misiones.add(new Mision(3,300));
+        misiones.add(new Mision(4,400));
+        misiones.add(new Mision(5,500));
+
+        Jugador jugador = new Jugador(misiones);
+        AbstractJuevo juego = new JuegoRPGV2(jugador);
+        juego.evaluar();
+
+    }
+}
